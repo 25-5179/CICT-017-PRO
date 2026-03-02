@@ -1,0 +1,27 @@
+/* External CSS File */
+
+/* Style for class "external" */
+.external {
+    color: purple;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Optional: Style for h3 with external class */
+h3.external {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+/* Optional: Style for h1 with external class */
+h1.external {
+    color: brown;
+    text-transform: uppercase;
+}
+
+/* Optional: Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
