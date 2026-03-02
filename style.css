@@ -1,27 +1,24 @@
-/* External CSS File */
-
-/* Style for class "external" */
-.external {
-    color: purple;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-/* Optional: Style for h3 with external class */
-h3.external {
-    ;
-    padding: 5px;
-}
-
-/* Optional: Style for h1 with external class */
-h1.external {
-    color: brown;
-    text-transform: uppercase;
-}
-
-/* Optional: Body styling */
+/* Style the whole page */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    padding: 20px;
+    background-color: #f4f6f9;
+    margin: 20px;
+}
+
+/* Style for h3 */
+h3 {
+    color: blue;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+/* Add extra style to all paragraphs */
+p {
+    font-size: 18px;
+}
+
+/* Add a border to headings */
+h1, h3 {
+    border-bottom: 2px solid gray;
+    padding-bottom: 5px;
 }
