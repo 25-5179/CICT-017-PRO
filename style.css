@@ -11,7 +11,7 @@ padding:10px;
 nav a{
 color:white;
 margin:15px;
-text-decoration:underline;
+text-decoration:none;
 font-weight:bold;
 }
 
@@ -20,14 +20,14 @@ color:green;
 }
 
 h1{
-color:purple;
+color:black;
 }
 
-.p1{color:blue;}
+.p1{color:white;}
 .p2{color:blue;}
-.p3{color:blue;}
+.p3{color:white;}
 .p4{color:blue;}
-.p5{color:blue;}
+.p5{color:white;}
 
 img{
 margin:10px;
