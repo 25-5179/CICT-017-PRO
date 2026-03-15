@@ -4,7 +4,7 @@ background-color:red;
 }
 
 nav{
-background-color:black;
+background-color:grey;
 padding:10px;
 }
 
@@ -23,11 +23,21 @@ h1{
 color:black;
 }
 
-.p1{color:white;}
-.p2{color:blue;}
-.p3{color:white;}
-.p4{color:blue;}
-.p5{color:white;}
+.p1{color:purple;}
+.p2{color:purple;}
+.p3{color:pink;}
+.p4{color:purple;}
+.p5{color:purple;}
+
+h2{
+color:blue;
+}
+
+.p1{color:red;}
+.p2{color:red;}
+.p3{color:red;}
+.p4{color:red;}
+.p5{color:red;}
 
 img{
 margin:10px;
