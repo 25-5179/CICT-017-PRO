@@ -1,24 +1,34 @@
-/* Style the whole page */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f9;
-    margin: 20px;
+body{
+font-family: Arial;
+background-color: lightgreen;
 }
 
-/* Style for h3 */
-h3 {
-    color: blue;
-    text-decoration: underline;
-    margin-top: 20px;
+nav{
+background-color: darkgreen;
+padding:10px;
 }
 
-/* Add extra style to all paragraphs */
-p {
-    font-size: 18px;
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
 }
 
-/* Add a border to headings */
-h1, h3 {
-    border-bottom: 2px solid gray;
-    padding-bottom: 5px;
+nav a:hover{
+color:yellow;
+}
+
+h1{
+color:darkblue;
+}
+
+.p1{color:red;}
+.p2{color:green;}
+.p3{color:purple;}
+.p4{color:brown;}
+.p5{color:orange;}
+
+img{
+margin:10px;
 }
