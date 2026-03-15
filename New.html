@@ -1,262 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Otuoma's Rugby Store</title>
-
-<style>
-
-body{
-font-family: Arial;
-margin:0;
-background:#eef2f5;
-}
-
-/* MENU BAR */
-
-nav{
-background:#0b3d2e;
-padding:15px;
-text-align:center;
-}
-
-nav a{
-color:white;
-margin:15px;
-text-decoration:none;
-font-weight:bold;
-}
-
-nav a:hover{
-color:yellow;
-}
-
-/* HEADER */
-
-header{
-background:#0b3d2e;
-color:white;
-padding:30px;
-text-align:center;
-}
-
-/* SECTION */
-
-.section{
-padding:20px;
-max-width:1000px;
-margin:20px auto;
-background:white;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
-}
-
-/* PARAGRAPH STYLING */
-
-.highlight{
-color:#b30000;
-font-weight:bold;
-line-height:1.7;
-}
-
-/* TABLE */
-
-table{
-width:100%;
-border-collapse:collapse;
-margin-top:20px;
-}
-
-th,td{
-border:1px solid #ccc;
-padding:10px;
-}
-
-th{
-background:#0b3d2e;
-color:white;
-}
-
-tr:nth-child(even){
-background:#f2f2f2;
-}
-
-/* IMAGES */
-
-.gallery{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:10px;
-}
-
-.gallery img{
-width:100%;
-border-radius:8px;
-}
-
-/* VIDEOS */
-
-.videos iframe{
-width:100%;
-height:315px;
-margin-top:15px;
-border-radius:10px;
-}
-
-/* BUTTON */
-
-button{
-background:#0b3d2e;
-color:white;
-border:none;
-padding:10px 20px;
-margin-top:10px;
-cursor:pointer;
-border-radius:5px;
-}
-
-button:hover{
-background:#145a45;
-}
-
-footer{
-text-align:center;
-padding:20px;
-background:#0b3d2e;
-color:white;
-}
-
-</style>
-
-</head>
-
-<body>
-
-<!-- MENU BAR -->
-
-<nav>
-<a href="#">Home</a>
-<a href="#">Shop</a>
-<a href="#">Gallery</a>
-<a href="#">Videos</a>
-<a href="#">Contact</a>
-</nav>
-
-<header>
-<h1>Otuoma's Rugby Store</h1>
-<p>Quality, Comfort, and Convenience in One Place</p>
-</header>
-
-<!-- INTRO -->
-
-<div class="section">
-
-<h2>Welcome to Randy's Rugby Store</h2>
-
-<p class="highlight">
-Rugby is more than a sport — it is a lifestyle built on teamwork,
-strength, and determination. At Otuoma's Rugby Store we supply
-players with the highest quality equipment designed to improve
-performance and safety on the field.
-</p>
-
-<p>
-Our store provides premium rugby balls, jerseys, boots, and
-training equipment used by both beginners and professional
-players across the world.
-</p>
-
-<p>
-We partner with trusted international suppliers to guarantee
-durability and comfort in every product we sell.
-</p>
-
-<p>
-Whether you are training for competition or playing casually
-with friends, our store has the right equipment to help you
-play your best game.
-</p>
-
-<p>
-Browse our collections, explore our training gear, and become
-part of the growing rugby community supported by our store.
-</p>
-
-<button>Shop Now</button>
-
-</div>
-
-<!-- IMAGE GALLERY -->
-
-<div class="section">
-
-<h2>Rugby Gear Gallery</h2>
-
-<div class="gallery">
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Rugby_ball.jpg">
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Rugby_union_boots.jpg">
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Rugby_scrum.jpg">
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Rugby_tackle_training.jpg">
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Rugby_training_equipment.jpg">
-
-</div>
-
-</div>
-
-<!-- PRODUCTS LIST -->
-
-<div class="section">
-
-<h2>Featured Rugby Gear</h2>
-
-<ul>
-<li>Professional Rugby Balls</li>
-<li>Team Jerseys</li>
-<li>Training Equipment</li>
-<li>Rugby Boots</li>
-<li>Protective Headgear</li>
-</ul>
-
-<h3>Training Equipment List</h3>
-
-<ol>
-<li>Cones
-<ul>
-<li>Red cones</li>
-<li>Blue cones</li>
-<li>Mini cones</li>
-</ul>
-</li>
-
-<li>Tackle Bags
-<ul>
-<li>Junior size</li>
-<li>Senior size</li>
-</ul>
-</li>
-
-<li>Agility Ladders
-<!DOCTYPE html>
-<html>
-<head>
-
 <title>Randy Otuoma Rugby Store</title>
 
 <style>
 
+/* GENERAL */
+
 body{
-font-family:Arial;
+font-family: Arial, sans-serif;
 margin:0;
-background:#eef3f7;
+background:#f2f5f7;
+color:#333;
 }
 
-/* MENU */
+/* NAVIGATION */
 
 nav{
 background:#0b3d2e;
@@ -271,10 +32,11 @@ color:white;
 margin:15px;
 text-decoration:none;
 font-weight:bold;
+font-size:16px;
 }
 
 nav a:hover{
-color:yellow;
+color:#ffd700;
 }
 
 /* HEADER */
@@ -282,20 +44,24 @@ color:yellow;
 header{
 background:#0b3d2e;
 color:white;
-padding:40px;
 text-align:center;
+padding:50px 20px;
+}
+
+header h1{
+margin:0;
+font-size:40px;
 }
 
 /* SECTIONS */
 
 .section{
 max-width:1000px;
-margin:auto;
+margin:30px auto;
 background:white;
-padding:20px;
-margin-top:25px;
+padding:25px;
 border-radius:10px;
-box-shadow:0 4px 10px rgba(0,0,0,0.1);
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
 }
 
 /* PARAGRAPHS */
@@ -306,7 +72,7 @@ font-weight:bold;
 line-height:1.7;
 }
 
-/* TABLE */
+/* TABLES */
 
 table{
 width:100%;
@@ -314,9 +80,10 @@ border-collapse:collapse;
 margin-top:15px;
 }
 
-th,td{
+th, td{
 border:1px solid #ccc;
 padding:10px;
+text-align:left;
 }
 
 th{
@@ -332,8 +99,9 @@ background:#f2f2f2;
 
 .gallery{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:10px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+margin-top:15px;
 }
 
 .gallery img{
@@ -343,22 +111,33 @@ border-radius:8px;
 
 /* VIDEOS */
 
-.video iframe{
+.video-container{
+margin-top:20px;
+}
+
+.video-container iframe{
 width:100%;
-height:350px;
-margin-top:15px;
+height:400px;
+margin-bottom:20px;
 border-radius:10px;
 }
 
-/* FORM */
+/* LISTS */
 
-input,textarea{
-width:100%;
-padding:10px;
-margin-top:10px;
+ul,ol{
+margin-left:25px;
 }
 
-/* BUTTON */
+/* CONTACT FORM */
+
+input, textarea{
+width:100%;
+padding:10px;
+margin-top:8px;
+margin-bottom:15px;
+border-radius:5px;
+border:1px solid #ccc;
+}
 
 button{
 background:#0b3d2e;
@@ -367,6 +146,7 @@ border:none;
 padding:10px 20px;
 border-radius:5px;
 cursor:pointer;
+font-size:16px;
 }
 
 button:hover{
@@ -376,10 +156,10 @@ background:#145a45;
 /* FOOTER */
 
 footer{
-text-align:center;
-padding:20px;
 background:#0b3d2e;
 color:white;
+text-align:center;
+padding:20px;
 margin-top:30px;
 }
 
@@ -389,22 +169,22 @@ margin-top:30px;
 
 <body>
 
-<!-- MENU BAR -->
+<!-- NAVIGATION -->
 
 <nav>
-
 <a href="#home">Home</a>
 <a href="#shop">Shop</a>
 <a href="#gallery">Gallery</a>
 <a href="#videos">Videos</a>
 <a href="#contact">Contact</a>
-
 </nav>
+
+<!-- HEADER -->
 
 <header id="home">
 
 <h1>Otuoma's Rugby Store</h1>
-<p>Quality Rugby Equipment For Every Player</p>
+<p>Quality Rugby Equipment for Every Player</p>
 
 </header>
 
@@ -415,35 +195,33 @@ margin-top:30px;
 <h2>Welcome to Randy's Rugby Store</h2>
 
 <p class="highlight">
-Rugby is one of the most exciting and physically demanding sports in the world.
-It requires strength, discipline and teamwork. At Randy Otuoma's Rugby Store
-we provide high quality equipment designed to help players perform at their best.
+Rugby is a sport built on teamwork, strength and determination.
+At Randy Otuoma's Rugby Store we provide high-quality rugby equipment
+to help players perform at their best both in training and during matches.
 </p>
 
 <p>
-Our store supplies professional rugby balls, jerseys, boots and training
-equipment used by players across the world. Every product is selected
-to ensure comfort, durability and high performance on the field.
+Our store offers professional rugby balls, boots, jerseys and training
+equipment used by players across the world. Every product is chosen
+to provide comfort, durability and performance.
 </p>
 
 <p>
-We partner with trusted rugby suppliers from different countries
-including Kenya, New Zealand and South Africa to bring you the best
-rugby equipment available.
+We work with trusted rugby suppliers from countries such as
+Kenya, New Zealand and South Africa to ensure our customers
+receive the best rugby gear available.
 </p>
 
 <p>
-Whether you are a beginner learning the game or an experienced player
-competing at a high level, our store offers equipment to help you
-train harder and play better.
+Whether you are a beginner learning the game or an experienced
+player competing at a high level, our store provides equipment
+to help you improve your performance.
 </p>
 
 <p>
-Explore our website to discover rugby gear, training videos and
-a gallery of rugby action from around the world.
+Explore our gallery, watch training videos and discover the
+best rugby gear for your next game.
 </p>
-
-<button>Start Shopping</button>
 
 </div>
 
@@ -451,33 +229,29 @@ a gallery of rugby action from around the world.
 
 <div class="section" id="shop">
 
-<h2>Featured Rugby Gear</h2>
+<h2>Rugby Equipment</h2>
 
-<h3>Popular Products</h3>
+<h3>Available Products</h3>
 
 <ul>
-
 <li>Professional Rugby Balls</li>
 <li>Rugby Team Jerseys</li>
 <li>Training Equipment</li>
 <li>Rugby Boots</li>
 <li>Protective Headgear</li>
-
 </ul>
 
 <h3>How To Buy</h3>
 
 <ol>
-
-<li>Browse rugby equipment</li>
-<li>Select your preferred product</li>
-<li>Add product to cart</li>
-<li>Enter delivery information</li>
+<li>Browse rugby products</li>
+<li>Select your preferred equipment</li>
+<li>Add items to your cart</li>
+<li>Enter shipping details</li>
 <li>Complete payment</li>
-
 </ol>
 
-<h3>Product Price Table</h3>
+<h3>Product Prices</h3>
 
 <table>
 
@@ -515,7 +289,7 @@ a gallery of rugby action from around the world.
 
 </div>
 
-<!-- SECOND TABLE -->
+<!-- PARTNERS TABLE -->
 
 <div class="section">
 
@@ -565,13 +339,13 @@ a gallery of rugby action from around the world.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Rugby_ball.jpg">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Rugby_union_scrum.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Rugby_union_scrum.jpg">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Rugby_union_tackle.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Rugby_union_tackle.jpg">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Rugby_training.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Rugby_training_drills.jpg">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Rugby_players.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Rugby_players_running.jpg">
 
 </div>
 
@@ -579,19 +353,23 @@ a gallery of rugby action from around the world.
 
 <!-- VIDEOS -->
 
-<div class="section video" id="videos">
+<div class="section" id="videos">
 
 <h2>Rugby Training Videos</h2>
 
-<iframe src="https://www.youtube.com/embed/Sm6xV4E9m3Y"></iframe>
+<div class="video-container">
 
-<iframe src="https://www.youtube.com/embed/JF9d3B4Jz6Q"></iframe>
+<iframe src="https://www.youtube.com/embed/Sm6xV4E9m3Y" allowfullscreen></iframe>
 
-<iframe src="https://www.youtube.com/embed/GK9nC6H1Qd0"></iframe>
+<iframe src="https://www.youtube.com/embed/JF9d3B4Jz6Q" allowfullscreen></iframe>
 
-<iframe src="https://www.youtube.com/embed/l0x6q0bG3vM"></iframe>
+<iframe src="https://www.youtube.com/embed/GK9nC6H1Qd0" allowfullscreen></iframe>
 
-<iframe src="https://www.youtube.com/embed/H6Jkz3p3s7k"></iframe>
+<iframe src="https://www.youtube.com/embed/l0x6q0bG3vM" allowfullscreen></iframe>
+
+<iframe src="https://www.youtube.com/embed/H6Jkz3p3s7k" allowfullscreen></iframe>
+
+</div>
 
 </div>
 
@@ -604,15 +382,15 @@ a gallery of rugby action from around the world.
 <form>
 
 <label>Name</label>
-<input type="text">
+<input type="text" placeholder="Enter your name">
 
 <label>Email</label>
-<input type="email">
+<input type="email" placeholder="Enter your email">
 
 <label>Message</label>
-<textarea rows="5"></textarea>
+<textarea rows="5" placeholder="Write your message"></textarea>
 
-<button>Send Message</button>
+<button type="submit">Send Message</button>
 
 </form>
 
@@ -625,4 +403,4 @@ a gallery of rugby action from around the world.
 </footer>
 
 </body>
-</html>
+  </html>
