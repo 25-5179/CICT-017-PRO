@@ -1,29 +1,369 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>CSS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Otuoma's Rugby Store</title>
 
-    <!-- Internal CSS -->
-    <style>
-        h1 {
-            color: pink;
-            font-style: italic;
-        }
-    </style>
+<style>
 
-    <!-- Link to External CSS -->
-    <link rel="stylesheet" href="style.css">
+body{
+font-family: Arial;
+margin:0;
+background:#eef2f5;
+}
+
+/* MENU BAR */
+
+nav{
+background:#0b3d2e;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+/* HEADER */
+
+header{
+background:#0b3d2e;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+/* SECTION */
+
+.section{
+padding:20px;
+max-width:1000px;
+margin:20px auto;
+background:white;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* PARAGRAPH STYLING */
+
+.highlight{
+color:#b30000;
+font-weight:bold;
+line-height:1.7;
+}
+
+/* TABLE */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th,td{
+border:1px solid #ccc;
+padding:10px;
+}
+
+th{
+background:#0b3d2e;
+color:white;
+}
+
+tr:nth-child(even){
+background:#f2f2f2;
+}
+
+/* IMAGES */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:10px;
+}
+
+.gallery img{
+width:100%;
+border-radius:8px;
+}
+
+/* VIDEOS */
+
+.videos iframe{
+width:100%;
+height:315px;
+margin-top:15px;
+border-radius:10px;
+}
+
+/* BUTTON */
+
+button{
+background:#0b3d2e;
+color:white;
+border:none;
+padding:10px 20px;
+margin-top:10px;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:#145a45;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#0b3d2e;
+color:white;
+}
+
+</style>
+
 </head>
 
 <body>
 
-    <h1>Monday is a chance to start fresh</h1>
+<!-- MENU BAR -->
 
-    <p style="color: green; font-weight: bold;">
-        Today is a beautiful day
-    </p>
+<nav>
+<a href="#">Home</a>
+<a href="#">Shop</a>
+<a href="#">Gallery</a>
+<a href="#">Videos</a>
+<a href="#">Contact</a>
+</nav>
 
-    <h3>Mangoes are sweett</h3>
+<header>
+<h1>Otuoma's Rugby Store</h1>
+<p>Quality, Comfort, and Convenience in One Place</p>
+</header>
+
+<!-- INTRO -->
+
+<div class="section">
+
+<h2>Welcome to Randy's Rugby Store</h2>
+
+<p class="highlight">
+Rugby is more than a sport — it is a lifestyle built on teamwork,
+strength, and determination. At Otuoma's Rugby Store we supply
+players with the highest quality equipment designed to improve
+performance and safety on the field.
+</p>
+
+<p>
+Our store provides premium rugby balls, jerseys, boots, and
+training equipment used by both beginners and professional
+players across the world.
+</p>
+
+<p>
+We partner with trusted international suppliers to guarantee
+durability and comfort in every product we sell.
+</p>
+
+<p>
+Whether you are training for competition or playing casually
+with friends, our store has the right equipment to help you
+play your best game.
+</p>
+
+<p>
+Browse our collections, explore our training gear, and become
+part of the growing rugby community supported by our store.
+</p>
+
+<button>Shop Now</button>
+
+</div>
+
+<!-- IMAGE GALLERY -->
+
+<div class="section">
+
+<h2>Rugby Gear Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Rugby_ball.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Rugby_union_boots.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Rugby_scrum.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Rugby_tackle_training.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Rugby_training_equipment.jpg">
+
+</div>
+
+</div>
+
+<!-- PRODUCTS LIST -->
+
+<div class="section">
+
+<h2>Featured Rugby Gear</h2>
+
+<ul>
+<li>Professional Rugby Balls</li>
+<li>Team Jerseys</li>
+<li>Training Equipment</li>
+<li>Rugby Boots</li>
+<li>Protective Headgear</li>
+</ul>
+
+<h3>Training Equipment List</h3>
+
+<ol>
+<li>Cones
+<ul>
+<li>Red cones</li>
+<li>Blue cones</li>
+<li>Mini cones</li>
+</ul>
+</li>
+
+<li>Tackle Bags
+<ul>
+<li>Junior size</li>
+<li>Senior size</li>
+</ul>
+</li>
+
+<li>Agility Ladders
+<ul>
+<li>Plastic ladder</li>
+<li>Fabric ladder</li>
+</ul>
+</li>
+
+</ol>
+
+</div>
+
+<!-- TABLE 1 -->
+
+<div class="section">
+
+<h2>Our Trusted Partners</h2>
+
+<table>
+
+<tr>
+<th>Company</th>
+<th>Country</th>
+<th>Email</th>
+<th>Phone</th>
+</tr>
+
+<tr>
+<td>Alfreds Rugby Supplies</td>
+<td>Germany</td>
+<td>maria@alfreds.de</td>
+<td>+49 123 4567</td>
+</tr>
+
+<tr>
+<td>Headgear Rugby</td>
+<td>Mexico</td>
+<td>francisco@centro.mx</td>
+<td>+254 737 572745</td>
+</tr>
+
+<tr>
+<td>Kenya Rugby Outfitters</td>
+<td>Kenya</td>
+<td>randy@kenyarugby.co.ke</td>
+<td>+254 700 123456</td>
+</tr>
+
+<tr>
+<td>All Blacks Gear</td>
+<td>New Zealand</td>
+<td>kayden@allblacks.nz</td>
+<td>+21 987654</td>
+</tr>
+
+</table>
+
+</div>
+
+<!-- TABLE 2 -->
+
+<div class="section">
+
+<h2>Popular Rugby Products</h2>
+
+<table>
+
+<tr>
+<th>Product</th>
+<th>Category</th>
+<th>Price</th>
+</tr>
+
+<tr>
+<td>Gilbert Rugby Ball</td>
+<td>Ball</td>
+<td>$30</td>
+</tr>
+
+<tr>
+<td>Training Cones</td>
+<td>Training</td>
+<td>$15</td>
+</tr>
+
+<tr>
+<td>Rugby Boots</td>
+<td>Footwear</td>
+<td>$85</td>
+</tr>
+
+<tr>
+<td>Team Jersey</td>
+<td>Clothing</td>
+<td>$40</td>
+</tr>
+
+</table>
+
+</div>
+
+<!-- VIDEOS -->
+
+<div class="section videos">
+
+<h2>Rugby Training Videos</h2>
+
+<iframe src="https://www.youtube.com/embed/GtG0Hh9jC0A"></iframe>
+
+<iframe src="https://www.youtube.com/embed/3XJ6Q3ZKkXk"></iframe>
+
+<iframe src="https://www.youtube.com/embed/WFoC3TR5rzI"></iframe>
+
+<iframe src="https://www.youtube.com/embed/pP4Y0yYF9P0"></iframe>
+
+<iframe src="https://www.youtube.com/embed/dH9KzT2Zc7E"></iframe>
+
+</div>
+
+<footer>
+
+© 2026 Randy's Rugby Store | Built for Champions
+
+</footer>
 
 </body>
-</html>
+    </html>
