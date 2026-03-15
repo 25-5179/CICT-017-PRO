@@ -1,10 +1,10 @@
 body{
 font-family: Arial;
-background-color:purple;
+background-color:grey;
 }
 
 nav{
-background-color:red;
+background-color:purple;
 padding:10px;
 }
 
@@ -29,13 +29,17 @@ color:black;
 .p4{color:purple;}
 .p5{color:purple;}
 
-h2{
-color:blue;
+img{
+margin:10px;
 }
 
-.p1{color:red;}
-.p2{color:red;}
-.p3{color:red;}
+h2{
+color:black;
+}
+
+.p1{color:blue;}
+.p2{color:blue;}
+.p3{color:blue;}
 .p4{color:red;}
 .p5{color:red;}
 
